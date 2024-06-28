@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import css from "./AlLert.module.css";
+import css from "./Allert.module.css";
 
 const Alert = ({ variant, outlined, elevated, children }) => {
   return (

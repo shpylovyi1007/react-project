@@ -1,12 +1,13 @@
 import Product from "../Product/Product";
 import Alert from "../Allert/MyAllert";
+import UserMenu from "../UserMenu/UserMenu";
 
 export default function App() {
   return (
     <>
       <div>
         <h1>Best selling</h1>
-
+        <UserMenu />
         <Product
           name="Tacos With Lime"
           imgUrl="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?dpr=2&h=480&w=640"
